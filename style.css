@@ -1,0 +1,168 @@
+@font-face {
+    font-family: 'montserrat_alt';
+    src: url('fonts/MontserratAlternates-Medium.otf') format('opentype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'montserrat_alt_thin';
+    src: url('fonts/MontserratAlternates-LightItalic.otf') format('opentype');
+    font-weight: thin;
+}
+
+@font-face {
+    font-family: 'montserrat_bold';
+    src: url('fonts/Montserrat-SemiBold.otf') format('opentype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'didot';
+    src: url('fonts/Didot Regular.ttf') format('truetype');
+    font-weight: normal;
+}
+
+body{
+	margin: 0px;
+	background-image: url("assets/background_valide.jpg");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.main_content{
+	position: relative;
+	height: 3000px;
+	width:1000px;
+	/*outline: 5px dotted green;*/
+	margin:0 auto;
+}
+
+.section{
+	position:absolute;
+	height:600px;
+	width:1000px;
+	left:0px;
+	top:0px;
+	/*outline: 4px dotted red;*/
+}
+
+.demi_cercle{
+	position: absolute; 
+	width:300px;
+	left:350px;
+}
+
+.titre{
+	position: absolute;
+	font-family: 'montserrat_bold';
+	font-size: 60px;
+	color: white;
+	text-align: center;
+	top :250px;
+	height :100px;
+	left:400px;
+	width :200px;
+	line-height: 100px;
+}
+
+.image{
+	position: absolute;
+	margin: 0px;
+}
+
+.central_sculpture{
+	position: absolute;
+	height:500px;
+	width:230px;
+	top:50px;
+	left:385px;
+}
+
+.big_quote{
+	position: absolute;
+	margin: 0px;
+	font-family: "montserrat_alt";
+	color:white;
+	font-size: 50px;
+	left:50px; 
+	top:150px;
+}
+
+.small_title{
+	font-family: "montserrat_bold";
+	font-size: 35px;
+	color: white;
+	text-align: center;
+}
+
+.text_legend{
+	font-family: "didot";
+	font-size: 25px;
+	color: white;
+	text-align: center;
+}
+
+.quote_container{
+	position:absolute;
+	width:350px;
+	height:75px;
+	/*outline: 2px dotted green;*/
+	
+}
+
+.section_title{
+	position: absolute;
+	font-family: 'montserrat_alt';
+	font-size: 55px;
+	color: white;
+	text-align: center;
+	top :0px;
+	left:35px;
+	line-height: 120px;
+}
+
+.title_decoration{
+	top:0px;
+	left:0px;
+	height:120px;
+}
+
+.title_container{
+	position:absolute;
+	top:40px;
+	left:300px;
+	width:400px;
+	height:120px;
+	/*outline: 2px dotted green;*/
+}
+
+.big_bubble{
+	position: absolute;
+	width:200px;
+}
+
+.small_bubble{
+	position: absolute;
+	width:100px;
+	opacity: 0.4;
+}
+
+.objective_title{
+	position: absolute;
+	display: block;
+	font-family: 'montserrat_alt_thin';
+	font-size: 20px;
+	color: white;
+	top :200px;
+	width:300px;
+	left:350px;
+	/*outline: 4px dotted green;*/
+}
+
+.move{
+	display: none;
+}
+
+
+

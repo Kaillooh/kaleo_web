@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Kaleo</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+      <div class="main_content" style="">
+        <div class="section">
+          <img src="assets/Titre_DemiCercle.png" class="demi_cercle" style="top : 0px;"/>
+          <img src="assets/Titre_DemiCercle.png" class="demi_cercle" style="top : 450px; transform:rotate(180deg);"/>
+
+          <div class="titre">
+            Kaleo
+          </div>
+        </div>
+        
+        <div class="section" style="top:700px;">
+          <img src="assets/Sculpture_3cibles.png" class="central_sculpture" onload="addVerticalMovement(this, -0.1)"/>
+          
+          <div class="big_quote" onload="addVerticalMovement(this, 0.1)">
+            Le réseau <br/>
+            
+            des <br/>
+            
+            acteurs <br/>
+            
+            de la <br/>
+            
+            recherche.<br/>
+          </div>
+
+          <div class="quote_container" style="top:100px;right:75px;">
+            <div class="move">0.05</div>
+            <div class="small_title">
+              ÉTUDIANTS ?
+            </div>
+            <div class="text_legend">
+              recherchez un stage !
+            </div>
+          </div>
+
+          <div class="quote_container" style="top:260px;right:25px;">
+            <div class="move">0.05</div>
+            <div class="small_title">
+              CHERCHEURS ?
+            </div>
+            <div class="text_legend">
+              recrutez un doctorant !
+            </div>
+          </div>
+
+          <div class="quote_container" style="bottom:100px;right:75px;">
+            <div class="move">0.05</div>
+            <div class="small_title">
+              ENTREPRISES ?
+            </div>
+            <div class="text_legend">
+              innovez grâce à la recherche !
+            </div>
+          </div>
+        </div>
+
+        <div class="section" style="top:1400px;">
+          <div class="title_container moving">
+            <div class="move">-0.1</div>
+            <img class="title_decoration" src="assets/Bulles_Titres.png"/>
+            <div class="section_title">
+              Nos objectifs
+            </div>
+          </div>
+
+          <img class="big_bubble" src="assets/CercleComplet.png" style="top:150px;left:-100px;" onload="addVerticalMovement(this, 0.3)"></img>
+
+          <img class="big_bubble" src="assets/CercleComplet.png" style="top:350px;right:-100px;" onload="addVerticalMovement(this, 0.5)"/>
+
+          <img class="small_bubble" src="assets/CercleComplet.png" style="top:200px;left:300px;" onload="addVerticalMovement(this, -0.05)"/>
+
+          <div class="objective_title" style="top:230px">Favoriser la pluridisciplinarité et le décloisonement de la science</div>
+
+          <img class="small_bubble" src="assets/CercleComplet.png" style="top:300px;right:320px;" onload="addVerticalMovement(this, -0.05)"/>
+
+          <div class="objective_title" style="top:330px">Replacer les idées au centre du processus de découverte scientifique</div>
+
+          <img class="small_bubble" src="assets/CercleComplet.png" style="top:400px;left:300px;" onload="addVerticalMovement(this, -0.05)"/>
+
+          <div class="objective_title" style="top:430px">Permettre au plus grand nombre de profiter de la recherche fondamentale</div>
+          
+        </div>
+
+      </div>
+
+
+  		
+  </body>
+</html> 
