@@ -44,7 +44,7 @@ body{
 	width:1000px;
 	left:0px;
 	top:0px;
-	/*outline: 4px dotted red;*/
+	outline: 4px dotted red;
 }
 
 .demi_cercle{
@@ -166,4 +166,32 @@ body{
 	position:absolute;
 }
 
+.network_sculpture{
+	position: absolute;
+	height:600px;
+}
 
+#network_quote{
+	position: absolute;
+	margin: 0px;
+	font-family: "montserrat_alt";
+	color:white;
+	font-size: 40px;
+	right:100px; 
+	top:100px;
+	text-align: right;
+}
+
+.regular_text{
+	font-family: "didot";
+	font-size: 15px;
+	color: white;
+}
+
+#network_explanation{
+	position: absolute;
+	width:400px;
+	top:400px;
+	right:100px;
+	text-align: right;
+}
