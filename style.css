@@ -44,7 +44,7 @@ body{
 	width:1000px;
 	left:0px;
 	top:0px;
-	outline: 4px dotted red;
+	/*outline: 4px dotted red;*/
 }
 
 .demi_cercle{
@@ -184,7 +184,7 @@ body{
 
 .regular_text{
 	font-family: "didot";
-	font-size: 15px;
+	font-size: 18px;
 	color: white;
 }
 
