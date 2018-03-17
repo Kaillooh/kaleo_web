@@ -73,7 +73,7 @@ body{
 .titre{
 	position: absolute;
 	font-family: 'montserrat_alt';
-	font-size: 60px;
+	font-size: 100px;
 	color: white;
 	text-align: center;
 	top :40vh;
@@ -135,6 +135,26 @@ body{
 	top :0px;
 	left:35px;
 	line-height: 120px;
+}
+
+#main_title{
+	font-size: 70px;
+}
+
+#subtitle{
+	position: absolute;
+	font-family: "montserrat_alt_thin";
+	font-size: 25px;
+	color: white;
+	text-align: center;
+	width: 300px;
+	left:-10px;
+	top:60px;
+}
+
+#main_title_decoration{
+	position:absolute;
+	left:-20px;
 }
 
 .title_decoration{
