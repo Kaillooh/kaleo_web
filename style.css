@@ -38,12 +38,22 @@ body{
 	margin:0 auto;
 }
 
+.first_page{
+	position: relative;
+	height: 100vh;
+	width:1000px;
+	/*outline: 5px dotted orange;*/
+	margin:0 auto;
+	margin-bottom: 100px;
+}
+
 .section{
-	position:absolute;
+	position:relative;
 	height:600px;
 	width:1000px;
 	left:0px;
 	top:0px;
+	margin-bottom: 100px;
 	/*outline: 4px dotted red;*/
 }
 
