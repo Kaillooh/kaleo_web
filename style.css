@@ -246,3 +246,7 @@ body{
 	width: 180px;
 	top:0px;
 }
+
+.transparent{
+	opacity: 0.2;
+}
