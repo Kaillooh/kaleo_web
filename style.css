@@ -32,7 +32,7 @@ body{
 
 .main_content{
 	position: relative;
-	height: 3000px;
+	height: 4000px;
 	width:1000px;
 	/*outline: 5px dotted green;*/
 	margin:0 auto;
@@ -183,7 +183,7 @@ body{
 }
 
 .regular_text{
-	font-family: "didot";
+	font-family: "montserrat_alt_thin";
 	font-size: 18px;
 	color: white;
 }
@@ -194,4 +194,55 @@ body{
 	top:400px;
 	right:100px;
 	text-align: right;
+}
+
+.ultra_big_bubble{
+	position: absolute;
+	width:1000px;
+	height: 1000px;
+}
+
+#ultra_big_bubble_container{
+	bottom:-500px;
+	left:-500px;
+	width:1000px;
+	height: 1000px;
+}
+
+#research_button_cont{
+	top:100px;
+	right:250px;
+}
+
+#feed_button_cont{
+	top:350px;
+	right:150px;
+}
+
+.bubble_button_container{
+	position: absolute;
+	width:300px;
+	height: 180px;
+	/*outline: 2px dotted blue;*/
+}
+
+.bubble_button{
+	width:180px;
+	height: 180px;
+}
+
+.button_text{
+	position: absolute;
+	height: 180px;
+	width: 100px;
+	top:20px;
+	left:210px;
+	font-family: "montserrat_alt_thin";
+	font-size: 18px;
+	color: white;
+}
+
+#feed_text{
+	width: 180px;
+	top:0px;
 }
